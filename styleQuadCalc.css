@@ -1,0 +1,45 @@
+.quadContent
+{
+    background: #003049;
+    border: 3px solid #00509d;
+    color: white;
+    padding: .5rem;
+}
+
+.quadHeader
+{
+    font-size: 1rem;
+    color: #f77f00;
+    margin: 10px;
+}
+
+.quadRoots
+{
+    background-color: #00509d;
+    margin: 10px;
+    color: white;
+}
+
+.quadInput
+{
+    width: 35px;
+
+}
+
+.quadCalcBtn
+{
+    font-size: .80rem;
+    margin: 10px;
+}
+
+.quadContent label, .quadContent input
+{
+    font-size: 17px;
+}
+
+.quadContent div
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

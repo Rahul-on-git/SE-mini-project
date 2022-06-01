@@ -72,6 +72,15 @@ body{
     background-color: #fff;
 }
 
+.dark p, .dark a, .dark a:visited
+{
+    color: white;
+}
+
+.dark a:hover
+{
+    color: chartreuse;
+}
 
 .label {
     background-color: black;

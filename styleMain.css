@@ -21,7 +21,7 @@ a{
     color: azure;
     text-decoration: none;
 }
- a:hover{
+a:hover{
     color: #ffb703;
     text-decoration: none;
 }
@@ -67,7 +67,6 @@ hr{
 {
     display: flex;
     margin-top: 2em;
-    flex-wrap: wrap;
 }
 .main1
 {
@@ -87,9 +86,11 @@ hr{
     border: 3px solid #003049;
     background-color: #00509d;
     color: white;
-    height: 50vh;
-    padding: 2em
+    height: 100vh;
+    padding: 2em;
+    overflow-y: auto;
 }
+
 #steps
 {
     height: 30vh;
@@ -97,7 +98,7 @@ hr{
 
 .heading
 {
-    color: #f77f00;
+    color: #FF4500;
 }
 
 button
@@ -203,6 +204,11 @@ span.dark
     
 }
 
+.dark label
+{
+    color: white;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -302,11 +308,13 @@ button[type = "submit"]:hover{
 
 #input1
 {
+    color: #fa7e19;
     padding: 2%;
 }
 
 #input2
 {
+    color: #388c46;
     padding: 2%;
 }
 
@@ -400,10 +408,20 @@ nav
 
 @media (max-width: 480px)
 {
-    
+    .upper
+    {
+        flex-wrap: wrap;;
+    }
     .main1
     {
         padding: 1rem;
+    }
+    .main4
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 2rem;
     }
     .hamburger
     {
